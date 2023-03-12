@@ -1,0 +1,56 @@
+body {
+    background-color: #733FF1;
+    color: #ffffff;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 1.25;
+
+    min-height: 3000px;
+}
+
+
+/* sections */
+
+section.book{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+section.content {
+    width: 50%;
+    max-width: 600px;
+    min-height: 100%;
+    padding: 32px;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+section.content h1 {
+margin-bottom: 32px;
+}
+
+section.content p {
+    margin-bottom: 256px;
+}
+
+section.content li {
+    margin-bottom: 32px;
+    padding-left: 48px;
+    position: relative;
+}
+
+section.content li:before {
+    content: "\2014\0DA0";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section.content div {
+    margin-bottom: 256px;
+}
+
